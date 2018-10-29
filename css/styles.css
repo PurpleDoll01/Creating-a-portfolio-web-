@@ -179,8 +179,8 @@ figure {
 }
 
 .event {
-  margin: 10px;
-  width: 480px;
+  margin: 1%;
+  width: 48%;
   border-radius: 10px;
   overflow: hidden;
   flex-shrink: 0;
@@ -192,6 +192,7 @@ figure {
   width: 480px;
   height: 200px;
   object-fit: cover;
+  object-position: 47% 31%;
 }
 
 .event-detail {
@@ -298,6 +299,10 @@ figure {
 
 /* If were doing desktop first, its better to start with the bigger media queries */
 
+@media screen and (max-width: 1440px) {
+
+}
+
 @media screen and (max-width: 1024px) {
 
 }
@@ -356,12 +361,33 @@ figure {
   .project-description {
     font-size: 0.8em;
   }
+
+  .event {
+    width: 80%;
+    margin: 3%;
+    align-items: center;
+  }
+
+  .event img {
+    object-position: 47% 31%;
+    width: 100%;
+
+  }
+
+  .event-list {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 479px) {
   .project-details {
     width: auto;
     font-size: 12px;
+  }
+
+  .event-detail {
+    margin: -2em .8em .8em .8em;
+    padding: 1em;
   }
 }
 
