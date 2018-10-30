@@ -409,6 +409,7 @@ figure {
 
   .footer {
     display: block;
+    /* display: flex; */
     text-align: center;
     border: 1px solid transparent;
   }
