@@ -297,6 +297,11 @@ figure {
   flex-wrap: inherit;
 }
 
+.html-video {
+  width: 100%;
+  height: auto;
+}
+
 /* If were doing desktop first, its better to start with the bigger media queries */
 
 @media screen and (max-width: 1440px) {
